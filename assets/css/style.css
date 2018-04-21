@@ -55,6 +55,26 @@ p {
 
 /* HEADER SECTION */
 
+#header{
+  background-image: url(../img/header_notext.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 200px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 1000px;
+  width: 100%;
+}
+
+/* Centered text */
+.textCentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #header h1 {
   font-weight: 900;
   color: #03c9a9;
